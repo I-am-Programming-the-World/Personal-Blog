@@ -36,4 +36,51 @@
   
     --py: 5rem;
 }
+/* Reset code used for resetting the browser default styling and font-types */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+button {
+  display: block;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: var(--fs-base); /* base font-size (0.85rem = 13.6px) */
+  line-height: 1.8;
+}
+
+:focus {
+  outline-offset: 4px;
+}
 /* This program was developed by ©I-am-Programming-the-World */
