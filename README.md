@@ -1,5 +1,5 @@
 # Personal-Blog
-A <em>mobile-first</em> responsive <strong>Personal Blog</strong> developed using HTML, CSS &amp; JS, with <em>Google</em> fonts and <em>Ionicons</em> integration!
+A *mobile-first* responsive **Personal Blog** developed using HTML, CSS &amp; JS, with ***Google fonts*** and ***Ionicons*** integration!
 ***
 The code is well-organized and follows best practices for creating a stylish and elegant portfolio website. Let's go through each section and understand its purpose and functionality.
 <ul type="square">
