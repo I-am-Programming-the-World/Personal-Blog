@@ -11,4 +11,17 @@
   
     --accent: hsl(229, 94%, 62%);
 }
+.dark-theme {
+    --background-primary: hsl(218, 23%, 23%);
+    --background-secondary: hsl(220, 26%, 14%);
+  
+    --action-primary: hsl(216, 15%, 52%);
+    --action-secondary: hsl(218, 23%, 23%);
+  
+    --foreground-primary: hsl(210, 38%, 95%);
+    --foreground-secondary: hsl(211, 25%, 84%);
+    --foreground-tertiary: hsl(214, 20%, 69%);
+  
+    --accent: hsl(229, 94%, 62%);
+}
 /* This program was developed by ©I-am-Programming-the-World */
