@@ -24,4 +24,16 @@
   
     --accent: hsl(229, 94%, 62%);
 }
+:root {
+    --white: hsl(0, 0%, 100%);
+
+    --fs-base: 0.85rem;
+    --fs-1: 1.875rem;
+    --fs-2: 1.5rem;
+    --fs-3: 1.25rem;
+    --fs-4: 0.875rem;
+    --fs-5: 0.75rem;
+  
+    --py: 5rem;
+}
 /* This program was developed by ©I-am-Programming-the-World */
