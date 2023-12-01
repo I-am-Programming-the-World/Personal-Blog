@@ -1,2 +1,14 @@
-
+.light-theme {  
+    --background-primary: hsl(0, 0%, 100%);
+    --background-secondary: hsl(210, 100%, 98%);
+  
+    --action-primary: hsl(213, 49%, 89%);
+    --action-secondary: hsl(210, 56%, 94%);
+  
+    --foreground-primary: hsl(218, 24%, 18%);
+    --foreground-secondary: hsl(216, 12%, 47%);
+    --foreground-tertiary: hsl(214, 22%, 70%);
+  
+    --accent: hsl(229, 94%, 62%);
+}
 /* This program was developed by ©I-am-Programming-the-World */
