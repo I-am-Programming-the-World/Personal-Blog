@@ -24,3 +24,9 @@ The code is well-organized and follows best practices for creating a stylish and
       </ol>
   <li>Finally, the required <em>stylesheet</em>, <em>script</em> & <em>ionicons</em> assets are linked to the HTML page!</li>
 </ul>
+
+## Final output
+### Light-mode:
+![personal-blog-light_mode](https://github.com/I-am-Programming-the-World/Personal-Blog/blob/main/assets/images/Light-Mode.png?raw=true)
+### Dark-mode:
+![personal-blog-dark_mode](https://github.com/I-am-Programming-the-World/Personal-Blog/blob/main/assets/images/Dark-Mode.png?raw=true)
