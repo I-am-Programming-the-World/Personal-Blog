@@ -22,21 +22,48 @@
         <div class="container">
             <nav class="navbar">
                 <a href="/" class="logo">World <span>Programmer</span></a>
-                <!-- Add a Hamburger menu button for the mobile menu -->
-                <div class="btn-group">
+            </nav>
+            <!-- Add a Hamburger menu button for the mobile menu -->
+            <div class="btn-group">
+                <button class="theme-btn theme-btn-mobile light">
+                    <ion-icon name="moon-outline" class="moon"></ion-icon>
+                    <ion-icon name="sunny-outline" class="sun"></ion-icon>
+                </button>
+                <button class="nav-menu-btn">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </div>
+            
+            <div class="flex-wrapper">
+                <!-- Add the navigation items -->
+                <ul class="desktop-nav">
+                    <li>
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">About me</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- Add a hamburger menu button for the desktop menu -->
                     <button class="theme-btn theme-btn-mobile light">
                         <ion-icon name="moon-outline" class="moon"></ion-icon>
                         <ion-icon name="sunny-outline" class="sun"></ion-icon>
                     </button>
-                    <button class="nav-menu-btn">
-                        <ion-icon name="menu-outline"></ion-icon>
-                    </button>
-                </div>
-                
-                <div class="flex-wrapper">
+            </div>
+            <!-- Add a close menu button for the mobile menu -->
+            <div class="mobile-nav">
+                <button class="nav-close-btn">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                <!-- Define a wrapper for "Main Menu"-->
+                <div class="wrapper">
+                    <p class="h3 nav-title">Main Menu</p>
                     <!-- Add the navigation items -->
-                    <ul class="desktop-nav">
-                        <li>
+                    <ul>
+                        <li class="nav-item">
                             <a href="#" class="nav-link">Home</a>
                         </li>
                         <li>
@@ -46,61 +73,34 @@
                             <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
-                    <!-- Add a hamburger menu button for the desktop menu -->
-                    <button class="theme-btn theme-btn-desktop light">
-                        <ion-icon name="moon-outline" class="moon"></ion-icon>
-                        <ion-icon name="sunny-outline" class="sun"></ion-icon>
-                    </button>
                 </div>
-                <!-- Add a close menu button for the mobile menu -->
-                <div class="mobile-nav">
-                    <button class="nav-close-btn">
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button>
-                    <!-- Define a wrapper for "Main Menu"-->
-                    <div class="wrapper">
-                        <p class="h3 nav-title">Main Menu</p>
-                        <!-- Add the navigation items -->
-                        <ul>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Home</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link">About me</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Add a "Secondary Menu" for the categories -->
-                    <div>
-                        <p class="h3 nav-title">Blog Topics</p>
-                        <!-- Add the navigation items -->
-                        <ul>
-                            <li>
-                                <a href="#" class="nav-link">SEO</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link">DBMS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Web Design</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link">Digital Marketing</a>
-                            </li>
-                        </ul>
-                    </div>
+                <!-- Add a "Secondary Menu" for the categories -->
+                <div>
+                    <p class="h3 nav-title">Blog Topics</p>
+                    <!-- Add the navigation items -->
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link">SEO</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">DBMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Digital Marketing</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
         </div>
     </header>
     <!-- Homepage content -->
     <main></main>
     <!-- Footer & Copyright -->
     <footer></footer>
-    
+
     <!-- Add link to JavaScript source codes. -->
     <script src="./assets/js/script.js"></script>
     <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" type="module"></script>
