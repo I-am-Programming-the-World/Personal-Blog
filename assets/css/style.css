@@ -44,71 +44,59 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
-
 li {
   list-style: none;
 }
-
 img {
   max-width: 100%;
 }
-
 img,
 button {
   display: block;
 }
-
 a,
 span {
   display: inline-block;
 }
-
 button {
   font: inherit;
   border: none;
   background: none;
   cursor: pointer;
 }
-
 html {
   font-family: "Inter", sans-serif;
   font-size: var(--fs-base); /* base font-size (0.85rem = 13.6px) */
   line-height: 1.8;
 }
-
 :focus {
   outline-offset: 4px;
 }
-
 /* Here we've attempted to style the default browser scrollbar */
-
 ::-webkit-scrollbar {
   width: 16px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--accent);
   border-radius: 20px;
   border: 4px solid;
 }
-
 .light-theme::-webkit-scrollbar-thumb {
   border-color: hsl(0, 0%, 90%);
 }
-
 .dark-theme::-webkit-scrollbar-thumb {
   border-color: hsl(219, 27%, 20%);
 }
-
 .light-theme::-webkit-scrollbar-track {
   background: hsl(0, 0%, 90%);
 }
-
 .dark-theme::-webkit-scrollbar-track {
   background: hsl(219, 27%, 20%);
 }
+/* The aforementioned base codes are a pre-requisite for modifying the browser and default styles.
+ (It's adviced to always incorporate these into your stylesheets) */
+ 
 /* This program was developed by ©I-am-Programming-the-World */
