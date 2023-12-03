@@ -179,7 +179,7 @@ header .btn-group {
   color: var(--foreground-tertiary);
 }
 /* Using modern CSS syntax to define the style for when the buttons are hovered. */
-:is(.theme-btn-mobile, .nav-menu-button, .nav-close-button):hover {
+:is(.theme-btn-mobile, .nav-menu-btn, .nav-close-btn):hover {
   color: var(--white);
   background: var(--accent);
 }
