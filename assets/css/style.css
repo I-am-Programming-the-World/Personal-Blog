@@ -136,9 +136,29 @@ html {
 }
 .btn {
   min-width: 10rem;
+  text-align: center;
   border-radius: 100px;
+  transition: all .2s ease-in-out;
 }
-
+.btn-primary {
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.6rem 1.2rem;
+}
+.btn-primary:hover {
+  background: var(--foreground-secondary);
+  color: var(--action-primary);
+}
+.btn-secondary {
+  background: var(--action-secondary);
+  color: var(--foreground-secondary);
+  padding: 0.6rem 1.2rem;
+  border: 3px solid var(--foreground-tertiary);
+}
+.btn-secondary:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
 /* Header Styling */
 header {
   background: var(--background-primary);
