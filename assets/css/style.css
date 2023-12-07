@@ -267,4 +267,31 @@ header .btn-group {
 .mobile-nav .nav-link:hover {
   color: var(--accent);
 }
+/* Hero section styling */
+.hero {
+  background: var(--background-primary);
+  padding: 2rem 0px var(--py) 0px;
+  text-align: center;
+}
+.hero .h1 {
+  margin: 0px 0px 1rem 0px;
+  line-height: 1.6;
+}
+.hero strong {
+  color: var(--accent);
+  font-weight: inherit;
+}
+.hero .h3 {
+  color: var(--foreground-secondary);
+  margin: 0ox 0px 2rem 0px;
+}
+.hero ,.btn-group {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero .right {
+  display: none;
+}
 /* This program was developed by ©I-am-Programming-the-World */
