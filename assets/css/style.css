@@ -159,6 +159,24 @@ html {
   color: var(--accent);
   border-color: var(--accent);
 }
+/* Dark Mode styling */
+.dark-theme .btn-primary:hover {
+  color: var(--background-primary);
+}
+.dark-theme .blog-topic {
+  background: var(--action-primary);
+  color: var(--foreground-secondary);
+}
+.dark-theme .blog-topic:hover {
+  background: var(--foreground-primary);
+  color: var(--action-primary);
+}
+.dark-theme .load-more:hover {
+  color: var(--white);
+}
+.dark-theme .aside .h2 {
+  color: var(--foreground-primary);
+}
 /* Header Styling */
 header {
   background: var(--background-primary);
