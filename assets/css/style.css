@@ -193,7 +193,7 @@ header .btn-group {
   position: fixed;
   inset: 0;
   background: var(--background-primary);
-  padding: 20px 20px;
+  padding: 40px 20px;
   overflow: auto;
   overscroll-behavior: contain;
   transform: translateX(100%);
@@ -205,7 +205,7 @@ header .btn-group {
   transform: translate(0);
   visibility: visible;
 }
-.nav-close-button {
+.nav-close-btn {
   top: 20px;
   right: 20px;
   position: absolute;
