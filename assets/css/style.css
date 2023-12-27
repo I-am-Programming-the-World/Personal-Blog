@@ -294,4 +294,93 @@ header .btn-group {
 .hero .right {
   display: none;
 }
+/* Blog section styling */
+.main {
+  background: var(--background-secondary);
+  padding: var(--py) 0;
+}
+.blog .h2 {
+  line-height: 1.3;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.blog-card-group {
+  margin-bottom: 3rem;
+}
+.blog-card {
+  background: var(--background-primary);
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
+  transition: 0.25s ease-in-out;
+}
+.blog-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.01);
+}
+.blog-card .h3 {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  transition: all 0.25s;
+}
+.blog-card .h3:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.blog-card-banner img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog-content-wrapper {
+  padding: 10px 5px;
+}
+.blog-topic {
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transition: all 0.2s;
+  padding: 0.25rem 1rem;
+  background: var(--action-primary);
+  color: var(--foreground-secondary);
+}
+.blog-topic:hover {
+  background: var(--foreground-secondary);
+  color: var(--action-secondary);
+}
+.blog-text,
+.profile-wrapper {
+  display: none !important;
+}
+.blog .wrapper {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+.blog .h4 {
+  color: var(--foreground-secondary);
+  transition: all 0.25s;
+}
+.blog .h4:hover {
+  color: var(--accent);
+}
+.blog .text-sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  color: var(--foreground-tertiary);
+}
+.blog .separator {
+  height: 3px;
+  margin: 0 3px;
+  margin-inline: 3px;
+  border-radius: 3px;
+  background: var(--foreground-tertiary);
+}
+.blog ion-icon {
+  --ionicon-stroke-width: 50px;
+}
 /* This program was developed by ©I-am-Programming-the-World */
