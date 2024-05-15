@@ -388,5 +388,9 @@ header .btn-group {
   background: var(--foreground-secondary);
   color: var(--background-secondary);
   padding: 0.6rem 1.2rem;
+  transition: all 0.2s;
+}
+.load-more:hover {
+  background: var(--accent);
 }
 /* This program was developed by ©I-am-Programming-the-World */
