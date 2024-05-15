@@ -383,4 +383,10 @@ header .btn-group {
 .blog ion-icon {
   --ionicon-stroke-width: 50px;
 }
+.load-more {
+  margin: auto;
+  background: var(--foreground-secondary);
+  color: var(--background-secondary);
+  padding: 0.6rem 1.2rem;
+}
 /* This program was developed by ©I-am-Programming-the-World */
