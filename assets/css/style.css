@@ -391,6 +391,13 @@ header .btn-group {
   transition: all 0.2s;
 }
 .load-more:hover {
+<<<<<<< HEAD
   background: var(--accent);
+=======
+  margin: auto;
+  background: var(--accent);
+  color: var(--background-secondary);
+  padding: 0.6rem 1.2rem;
+>>>>>>> d6d8509698724f50a14826d6e2cb487f4ca1dfc0
 }
 /* This program was developed by ©I-am-Programming-the-World */
