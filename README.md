@@ -10,7 +10,7 @@ The code is well-organized and follows best practices for creating a stylish and
   <li>A default <em>Google font</em> has been imported; This can be done, via the following steps:</li>
       <ol type="1">
           <li>Go to the <a href="https://fonts.google.com/" target="_blank" rel="noreferrer">Google Fonts</a> website.</li>
-          <li>Browse through the available fonts and select the <em>font-family</em> & <em>font-size</em> you want to use in your project.</li>
+          <li>Browse through the available fonts and select the <em>font-family</em> & <em>font-size</em> you want to use in your project!</li>
           <li>Once you have chosen your desired fonts, click on the <strong>"Select This Font"</strong> button for each font you need.</li>
           <li>After selecting all the fonts, a font selection drawer will appear at the bottom of the screen. In the drawer, click on the <strong>"Embed"</strong> tab.</li>
           <li>
