@@ -19,4 +19,82 @@
         object-fit: cover;
     }
 }
+/* Responsive layout for devices with a screen larger than 550px */
+@media (min-width: 650px) {
+    :root {
+        /* Typography */
+        --fs-1: 2.25rem;
+    }
+    /* Reused style */
+    .container {
+        padding: 0 30px;
+    }
+    /* Header */
+    .navbar {
+        padding: 30px 0;
+    }
+    /* Blog */
+    .blog .h2 {
+        position: relative;
+        text-align: left;
+        padding-left: 2rem;
+    }
+    .blog .h2::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--action-primary);
+        width: 5px;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .blog-text,
+    .profile-wrapper {
+        display: block;
+    }
+    .blog-text {
+        color: var(--foreground-secondary);
+        font-size: var(--fs-4);
+        display: -webkit-box;
+        line-clamp: 3;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    .blog .wrapper-flex {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+    }
+    .profile-wrapper {
+        width: 56px;
+        height: 56px;
+        background: var(--action-primary);
+        padding: 3px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .profile-wrapper img {
+        border-radius: 50%;
+    }
+    .blog .wrapper {
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+    /* Footer  */
+    footer .container {
+        padding: var(--py) 30px;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    footer .wrapper {
+        text-align: left;
+    }
+    .footer-text {
+        margin: 0;
+    }
+  }
 /* This program was developed by ©I-am-Programming-the-World */
