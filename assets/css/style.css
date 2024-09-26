@@ -96,6 +96,9 @@ html {
 .dark-theme::-webkit-scrollbar-track {
   background: hsl(219, 27%, 20%);
 }
+.dark-theme .btn-primary:hover {
+  color: var(--background-primary);
+}
 /* The aforementioned base codes are a pre-requisite for modifying the browser and default styles.
  (It's adviced to always incorporate these into your stylesheets) */
 
@@ -317,7 +320,7 @@ header .btn-group {
 }
 .blog-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.01);
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1); /* Adjusted opacity from 0.01 to 0.1 */
 }
 .blog-card .h3 {
   line-height: 1.4;
