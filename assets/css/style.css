@@ -393,4 +393,8 @@ header .btn-group {
 .load-more:hover {
   background: var(--accent);
 }
+/* Aside section styling */
+.aside {
+  display: none;
+}
 /* This program was developed by ©I-am-Programming-the-World */
