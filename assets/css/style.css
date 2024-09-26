@@ -404,7 +404,7 @@ header .btn-group {
 footer {
   background: var(--background-primary);
 }
-footer .conatiner {
+footer .container {
   padding: var(--py) 15px;
   display: grid;
   grid-template-columns: 1fr;
@@ -433,7 +433,7 @@ footer .wrapper {
   color: var(--foreground-secondary);
   font-size: var(--fs-4);
   text-align: center;
-  padding: 1 rem;
+  padding: 1rem;
   border-top: 1px solid var(--action-primary);
 }
 .copyright a {
