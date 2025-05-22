@@ -1,4 +1,15 @@
 # Personal-Blog
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/)
+[![Ionicons](https://img.shields.io/badge/Ionicons-3880FF?style=for-the-badge&logo=ionic&logoColor=white)](https://ionicons.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Repo Status](https://img.shields.io/badge/Repo_Status-Active-green?style=for-the-badge)](https://github.com/I-am-Programming-the-World/Personal-Blog/)
+[![Mobile First](https://img.shields.io/badge/Mobile%20First-Responsive-purple?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+[![GitHub stars](https://img.shields.io/github/stars/I-am-Programming-the-World/Personal-Blog?style=for-the-badge&logo=github&label=Stars)](https://github.com/I-am-Programming-the-World/Personal-Blog/stargazers)
+
 A *mobile-first* responsive **Personal Blog** developed using HTML, CSS &amp; JS, with ***Google fonts*** and ***Ionicons*** integration!
 ***
 The code is well-organized and follows best practices for creating a stylish and elegant portfolio website. Let's go through each section and understand its purpose and functionality.
